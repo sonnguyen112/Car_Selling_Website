@@ -80,8 +80,11 @@ WSGI_APPLICATION = "car_seller_project.wsgi.application"
 
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
+        "ENGINE": "django.db.backends.postgresql",
+        "NAME": "carselling_project",
+        "USER": "postgres",
+        "PASSWORD": "Son[1122002]",
+        "HOST": "localhost"
     }
 }
 
